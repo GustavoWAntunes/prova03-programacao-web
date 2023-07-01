@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+    <div class="cadastro">
+        <div>
+            <label>ID:</label>
+            <input type="text" [(ngModel)]="id">
+            <button (click)="consultarCadastro()">Consultar</button>
+        </div>
+        
+        <div *ngIf="cadastroData">
+            <p>ID: {{ cadastroData.id }}</p>
+            <p>Nome: {{ cadastroData.nome }}</p>
+            <p>Departamento: {{ cadastroData.departamento }}</p>
+            <p>Endereço: {{ cadastroData.endereco }}</p>
+            <p>Email: {{ cadastroData.email }}</p>
+            <button (click)="excluirCadastro()">Exclusão</button>
+        </div>
+        
+        <div>
+            <h2>Inserir Cadastro</h2>
+            <form (submit)="inserirCadastro()">
+            <label>ID:</label>
+            <input type="text" [(ngModel)]="id" name="id">
+            <label>Nome:</label>
+            <input type="text" name="nome">
+            <label>Departamento:</label>
+            <input type="text" name="departamento">
+            <label>Endereço:</label>
+            <input type="text" name="endereco">
+            <label>Email:</label>
+            <input type="text" name="email">
+            <button type="submit">Inserir</button>
+            </form>
+        </div>
+        
+        <div *ngIf="statusMessage" [style.background-color]="statusColor">
+            {{ statusMessage }}
+        </div>
+    </div>
+</body>
+</html>
+
+
+  

@@ -1,0 +1,51 @@
+#cabecalho{
+    width: 100%;
+    height: 100px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 746px;
+    top: 0;
+}
+.tituloLogo{
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+.iconEgg{
+    width: 5rem;
+    height: auto;
+    margin-right: 1rem;
+    margin-top: 0.2rem;
+}
+.pesLoja{
+    display: flex;
+    align-items: center;
+    width: auto;
+}
+section{
+    background-color: white;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    height: 2rem;
+    margin-right: 1rem;
+    width: 90%;
+}
+.iconPsq{
+    width: 1rem;
+    margin-left: 1rem;
+    margin-right: 0.5rem;
+}
+.barraPesq{
+    background-color: transparent;
+    outline: none;
+    height: 2rem;
+    width: 50%;
+    padding: 0.3rem;
+    border: none;
+}

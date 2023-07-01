@@ -1,0 +1,52 @@
+.menuFrontal{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(177, 177, 88);
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 746px;
+    top: 0;
+    justify-content: center;
+}
+.opcoes{
+    display: flex;
+}
+.btnMenuFront{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.7rem;
+    height: 3rem;
+    width: 11rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    color: black;
+}
+.btnMenuFront:hover{
+    background-color: rgb(211, 211, 128);
+    border-radius: 2rem;
+    transition-duration: 0.4s;
+    border: none;
+}
+.icons{
+    width: 2rem;
+    height: auto;
+    margin-left: 1rem;
+    color: black;
+}
+.escOps{
+    font-size: 1.3rem;
+    margin-left: 1rem;
+    margin-bottom: 0.3rem;
+}
+
+
+
+

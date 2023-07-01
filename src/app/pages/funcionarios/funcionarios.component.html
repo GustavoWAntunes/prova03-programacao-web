@@ -1,0 +1,15 @@
+<div class="cabecalho">
+    <h1>Lista de Funcionários</h1>
+</div>
+
+    <div class="ame">
+        <div class="card" *ngFor="let funcionario of funcionarios">
+            <img src="{{funcionario.foto}}" alt="">
+            <p class="nome" id="item">{{funcionario.nome}}</p>
+            <p class="pro1" id="item">{{funcionario.subobjeto.propriedade1}}</p>
+            <p class="pro2" id="item">{{funcionario.subobjeto.propriedade2}}</p>
+            <div class="emaildiv">
+                <a id="item" href="mailto:{{ funcionario.email }}">{{ funcionario.email }}</a>
+            </div>
+        </div>
+    </div>

@@ -1,0 +1,11 @@
+footer{
+    background-color: yellow;
+    font-size: 2rem;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    min-width: 715px;
+    bottom: 0;
+}

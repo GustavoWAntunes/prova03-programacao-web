@@ -1,0 +1,18 @@
+h1{
+    margin-left: 5rem;
+    margin-top: 2rem;
+}
+.maior{
+    display: flex;
+    align-items: center;
+}
+.menor{
+    background-color: rgb(177, 177, 88);
+    border-radius: 1rem;
+    margin: 1rem;
+}
+p{
+    margin: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+}

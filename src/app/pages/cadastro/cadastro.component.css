@@ -1,0 +1,38 @@
+.container {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  
+  .message {
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .success {
+    background-color: green;
+  }
+  
+  .error {
+    background-color: red;
+  }
+  
+  .cadastro{
+    display: flex;
+    text-align: center;
+    margin-left: 5%;
+  }
